@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>log-in</title>
+  <link rel=" stylesheet" href="./index.css" />
+  <link rel="stylesheet " href="./normalize.css" />
+  <link rel="stylesheet " href="./webFonts/css/all.css" />
+  <link rel="stylesheet " href="./webFonts/webfonts/fa-brands-400.ttf" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Cairo:wght@200;600;900&family=Mooli&family=Oswald:wght@700&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,400;1,500;1,700&family=Rubik:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800&family=Tilt+Prism&family=Tulpen+One&display=swap"
+    rel="stylesheet">
+  <!-- remixicon  like font Aowsem -->
+</head>
+
+<body>
+  <div class="log-in">
+    <img src="./photo/bg1.jpeg" class="log-img">
+    <form action="" class="login__form">
+      <h1 class="logIn-title">Login</h1>
+      <div class="login__content">
+        <div class="login__box">
+          <i class="fa-regular fa-user login__icon"></i>
+          <div class="login__box-input">
+            <input type="email" required class="login__input " placeholder="">
+            <label for="" class="login__label">Email</label>
+
+          </div>
+        </div>
+        <div class="login__box">
+          <i class="fa-solid fa-lock login__icon"></i>
+          <div class="login__box-input">
+            <input type="password" required id="login__password" class="login__input " placeholder="">
+            <label for="" class="login__label">PassWord</label>
+            <i class="fa-solid fa-eye-slash login__eye" id="log__eye"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="login__check">
+        <div class="login__check-group">
+          <input type="checkbox" class="login__check-input">
+          <label for="" class="login__check-label">Remember Me </label>
+
+        </div>
+        <a href="#" class="Login__forget">Forget Password ??</a>
+      </div>
+      <button class="login__button">Login</button>
+      <p class="login--regstister">
+        Don't have an account ?? <a href="#">Register</a>
+      </p>
+    </form>
+  </div>
+
+  <div class="main"></div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
